@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	fmt.Println(Sum(10, 10))
+	fmt.Println(sum(10, 10))
 }
 
-func Sum(i1, i2 int) int {
+func sum(i1, i2 int) int {
 	return i1 + i2
 }
